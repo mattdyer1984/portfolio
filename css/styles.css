@@ -1,3 +1,6 @@
+header {
+  height: 100vh;
+}
 
 nav {
   font-family:Rubik, sans-serif;
@@ -9,7 +12,7 @@ nav {
 }
 
 
-img{
+#programmer {
   width: 180px;
   height: 180px;
   position: relative;
@@ -39,3 +42,12 @@ img{
   font-size: 26px;
   
 }
+#down {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  font-size: 55px;
+  text-align: center;
+}
+
