@@ -25,37 +25,58 @@
     <script defer src="js/index.js"></script>
 </head>
 
-<body class="bg-blue-500">
+<body class="bg-black">
     <div class=" container mx-auto">
 
 <header>
     <nav class="navbar text-white">
         <a href="index.html">Home</a>
-        <a href="#">About</a>
+        <a href="#about">About</a>
         <a href="#">Contact Me!</a>
     </nav>
 
+<div class="title text-white font text-2xl">
+    <p>&lt;Home&gt;</p>
 
-<img id="programmer" src="images/programmer.png" alt="Cartoon style image of Matt">
-<div class="grid-container">
+</div>
+<div class="grid-container ">
+   
     <div>
+            <img id="programmer" src="images/programmer.png" alt="Cartoon style image of Matt"> 
+    </div>
+    <div class="heading m-20 p-10">
+        <p class="headingl1">Hi there! I'm Matt,</p>
+        <p class="headingl2"> Welcome to my portfolio page! </p>
+        <p>I'm Passionate about coding.</p>
+        <a class="button" href="#about" ><button class="text-black m-4 p-1 border-2 border-red-500 rounded bg-white">About Matt</button></a>  
+        </p>
+    </div>
+    <div>
+        <img id="programmer" src="images/programmer.png" alt="Cartoon style image of Matt">
+    </div>
+</div>
+  
 
-</div>
-<div class="text-slate border-2  leading-10 bg-blue-200  border-white shadow-2xl"> </p>
-    <p>Hi there! I'm Matt,</p>
-    <p> Welcome to my portfolio page! 
-       <div> <button href="#about" class="text-black m-4 p-2 border-2 border-black rounded bg-slate-200">Click Me!</button>  </div>
-       <p> To find out more about me. </p>
-    </p>
-</div>
-    <div></div>
-</div>
 <div>
     <a href="#about" id="down">
-<i class="fa-solid fa-arrows-down-to-line" ></i>
+        <i class="fa-solid fa-angle-down"></i>
 </a>
+
 </div>
+
 </header>
+<div id="about" class="bg-black text-white h-screen">
+    <div class="title text-white font text-2xl">
+        <p>&lt;About&gt;</p>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro velit doloribus, architecto necessitatibus illum quia consequatur delectus rerum sapiente ex eum. Blanditiis ab perferendis tempore corporis delectus nisi illum!
+    </p>
+
+</div>
+
+<div id="portfolio">
+    <p> Here is a selection of some previous projects I have undertaken.</p>
 </div>
 </body>
 </html>

@@ -11,37 +11,115 @@ nav {
 
 }
 
+.grid-container
+{ 
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  position: relative;
 
+}
 #programmer {
   width: 180px;
   height: 180px;
-  position: relative;
+  position:relative;
   animation-name: cartoon;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cartoon {
+  0%   {left:0px; top:0px;}
+  25%  {left:0px; top:275px;}
+  50%  {left:0px; top:550px;}
+  75%  {left:0px; top:275px;}
+  100% {left:0px; top:0px;}
+
+}
+#programmer1 {
+   ;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  animation-name: cartoon1;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cartoon1 {
+  25%  {left:50%; top:275px;}
+  50%  {left:50%; top:550px;}
+  75%  {left:50%; top:0px;}
+  0%   {left:50%; top:0px;}
+
+}
+
+.heading {
+  position: relative;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: 300;
+  font-size: 26px;
+
+}
+
+.headingl1 {
+  animation-name: moveLeft;
   animation-duration: 6s;
   animation-iteration-count: 3;
 }
 
-@keyframes cartoon {
-  0%   {left:15px; top:0px;}
-  
-  25%  {left:85%; top:0px;}
+.headingl2 {
+  animation-name: moveRight;
+  animation-duration: 6s;
+  animation-iteration-count: 3;
+}
+.button {
+  animation-name: moveUp;
+  animation-duration: 6s;
+  animation-iteration-count: 3;
+}
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem)
+  }
 
-  50%  {left:85%; top:550px;}
-  75%  { left:15px; top:550px;}
-  100% {left:0px; top:0px;}
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-  font-family:'Rubik', sans-serif;
-  height: 300px;
-  border-radius: 5px;
-  text-align: center;
-  align-items: center;
-  padding: 24px;
-  font-size: 26px;
-  
+
+@keyframes moveRight {
+  0% {
+      opacity: 0;
+      transform: translateX(10rem)
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0)
+  }
 }
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(+10rem)
+  }
+}
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+
 #down {
   position: absolute;
   bottom: 5px;
@@ -50,4 +128,3 @@ nav {
   font-size: 55px;
   text-align: center;
 }
-
