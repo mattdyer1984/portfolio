@@ -9,3 +9,33 @@ nav {
 }
 
 
+img{
+  width: 180px;
+  height: 180px;
+  position: relative;
+  animation-name: cartoon;
+  animation-duration: 6s;
+  animation-iteration-count: 3;
+}
+
+@keyframes cartoon {
+  0%   {left:15px; top:0px;}
+  
+  25%  {left:85%; top:0px;}
+
+  50%  {left:85%; top:550px;}
+  75%  { left:15px; top:550px;}
+  100% {left:0px; top:0px;}
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  font-family:'Rubik', sans-serif;
+  height: 300px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  padding: 24px;
+  font-size: 26px;
+  
+}
