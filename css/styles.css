@@ -1,5 +1,11 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+
+nav {
+  font-family:Rubik, sans-serif;
+  padding: 20px;
+  display: flex;
+  gap: 3rem;
+  border-bottom: 1px solid white;
+
 }
+
+
