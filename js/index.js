@@ -8,9 +8,9 @@ fetch('projects.json')
         Projects +=  
         '<div><img src="' + item.img + '" alt="screen shot of website" width="250px" height="300px"></div>' +
         '<div><ul>'
-        + '<li>' + '<strong>Name:</strong> ' + item.name + '</li><li><strong>Field:</strong> ' + item.Field + 
-        '</li><li><strong>Description:</strong> ' + item.desc + '</li><li><a href="' + item.Links +
-        '"><strong>Link for website :</strong> <u>' + item.name + '</u></a></li></ul></div>'
+        + '<li>' + '<span class= text-green-500 semi-bold>Name:</span> ' + item.name + '</li><li><span class= text-green-500 semi-bold>Field:</span> ' + item.Field + 
+        '</li><li><span class= text-green-500 semi-bold>Description:</span> ' + item.desc + '</li><li><span class= text-green-500 semi-bold>Link for website :</span><a href="' + item.Links +
+        '" <u>' + item.name + '</u></a></li></ul></div>'
 
     })
     displayTarget.innerHTML += Projects
