@@ -26,16 +26,21 @@
 </head>
 
 <body class="bg-black">
+    <div class="enter-button">
+        <a href="#"><button id="enter"class="text-green-500 border-2 border-green-500">Matt Dyer Portfolio <br> >Enter<</button></a>
+    </div>
+<div id="home" class='main-body'>
     <div class=" container mx-auto">
 
 <header>
-    <nav class="navbar text-white">
+    <nav class="navbar text-green-500">
         <a href="index.html">Home</a>
         <a href="#about">About</a>
-        <a href="#">Contact Me!</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Me!</a>
     </nav>
 
-<div class="title text-white font text-2xl">
+<div class="title text-green-500 font text-2xl">
     <p>&lt;Home&gt;</p>
 
 </div>
@@ -45,10 +50,10 @@
             <img id="programmer" src="images/programmer.png" alt="Cartoon style image of Matt"> 
     </div>
     <div class="heading m-20 p-10">
-        <p class="headingl1">Hi there! I'm Matt,</p>
-        <p class="headingl2"> Welcome to my portfolio page! </p>
+        <p class="headingl1 text-green-500 font-medium">Hi there! I'm Matt,</p>
+        <p class="headingl2 text-green-500 font-medium"> Welcome to my portfolio page! </p>
         <p>I'm Passionate about coding.</p>
-        <a class="button" href="#about" ><button class="text-black m-4 p-1 border-2 border-red-500 rounded bg-white">About Matt</button></a>  
+        <a class="button-about" href="#about" ><button class="text-green-500 font-medium m-4 p-1 border-2 border-green-500 rounded ">About Matt</button></a>  
         </p>
     </div>
     <div>
@@ -66,25 +71,49 @@
 
 </header>
 <div id="about" class="bg-black h-screen text-white ">
-    <div class="title text-white text-2xl">
-        <p>&lt;About&gt;</p>
+    <div class="title text-green-500 font-medium text-2xl">
+        &lt;About&gt;
+        <a href="#home">&lt;Home&gt;</a>
     </div>
-    <p>
+    <div class="photo">
+        <img src="images/Matt.jpeg" alt="Photo of Matt Dyer">
+    </div>
+    <p class="mx-20">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro velit doloribus, architecto necessitatibus illum quia consequatur delectus rerum sapiente ex eum. Blanditiis ab perferendis tempore corporis delectus nisi illum!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloribus quibusdam vitae laborum at distinctio quaerat sequi blanditiis ducimus dicta quam, officia modi facere totam amet magni, soluta repellat praesentium!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam esse mollitia repudiandae corrupti modi. Recusandae earum odit rem. Doloribus libero illum corporis iure beatae molestiae totam maiores quia commodi harum.
     </p>
-
+    <a class="button-portfolio" href="#portfolio" ><button class="text-green-500 font-medium m-4 p-1 border-2 border-green-500 rounded ">Portfolio</button></a>  
 </div>
 
-<div id="portfolio" class= "h-screen bg-blue-600 container mx-auto text-white">
-    <p>&lt;Portfolio&gt;</p>
+<div id="portfolio" class= "h-screen text-green-500 font-medium inline text-2xl">
+   <div> 
+    &lt;Portfolio&gt;
+    <a href="#home">&lt;Home&gt;</a>
+    <a href="#about">&lt;About&gt;</a>
+
+</div>
+    <div class="p-20 text-white text-xl">
     <p> Here is a selection of some previous projects I have undertaken.</p>
-    <div class="pro-container">
-        
-            <div id="projects" class="text-white">
+    </div>
+    <div id="projects" class="text-white font-mediu text-base">
             
            
-            </div>
     </div>
+    
+    <div id="contact" class="contact border-t-2 border-green-500 p-8 mt-6 text-2xl text-green-500 text-center">
+        <div class="socials">
+
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        </div>       
+        <a href="mailto:matt@bristol-remaps.co.uk">Email: matt@bristol-remaps.co.uk<br></a>
+        Tel: 07398 just emails please.
+    </div>
+    </div>
+</div>
 </div>
 </body>
 </html>
