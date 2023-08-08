@@ -44,11 +44,11 @@ nav {
 }
 
 @keyframes cartoon {
-  0%   {left:0px; top:0px;}
-  25%  {left:0px; top:35%;}
-  50%  {left:0px; top:70%;}
-  75%  {left:0px; top:35%;}
-  100% {left:0px; top:0px;}
+  0%   {left:30px; top:0px;}
+  25%  {left:30px; top:35%;}
+  50%  {left:30px; top:70%;}
+  75%  {left:30px; top:35%;}
+  100% {left:30px; top:0px;}
 }
 
 .heading {
@@ -110,9 +110,11 @@ nav {
   0% {
     opacity: 0;
   }
+
   50% {
       opacity: 1;
       }
+
       100% {
         opacity: 0;
         }
@@ -133,7 +135,7 @@ nav {
     display:flex;
     height: auto;
     width:15%;
-    margin: 100px 40% 100px 40%;
+    margin: 100px 40%;
   }
 
   .button-portfolio {
