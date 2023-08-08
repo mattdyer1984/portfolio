@@ -52,16 +52,9 @@ nav {
 }
 
 .heading {
-  position: relative;
-  align-self: center;
-  justify-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: fit-content;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 26px;
 }
 
@@ -70,11 +63,13 @@ nav {
   animation-duration: 6s;
   animation-iteration-count: 1;
 }
+
 .headingl2 {
   animation-name: move-right;
   animation-duration: 6s;
   animation-iteration-count: 1;
 }
+
 .headingl3 {
   animation-name: appear;
   animation-duration: 3s;
@@ -86,6 +81,7 @@ nav {
   animation-duration: 6s;
   animation-iteration-count: 1;
 }
+
 @keyframes move-left {
   0% {
     opacity: 0;
@@ -109,6 +105,7 @@ nav {
       transform: translateX(0)
   }
 }
+
 @keyframes appear {
   0% {
     opacity: 0;
@@ -120,6 +117,7 @@ nav {
         opacity: 0;
         }
   }
+
 @keyframes move-up {
   0% {
     opacity: 0;
@@ -130,27 +128,27 @@ nav {
       opacity: 1;
       transform: translateY(0);}
   }
+
   .photo {
     display:flex;
     height: auto;
     width:15%;
-    margin-left: 40%;
-    margin-right:40%;
-    margin-bottom: 100px;
-    margin-top:100px ;
+    margin: 100px 40% 100px 40%;
   }
+
   .button-portfolio {
   display: flex;
   justify-content: center;
   margin-top: 100px;
-
   }
+
 #projects {
   display: grid;
   grid-template-columns: 2fr 4fr;
   margin-top: 25px;
   gap: 2rem;
 }
+
 .socials {
   padding: 2rem;
 }
