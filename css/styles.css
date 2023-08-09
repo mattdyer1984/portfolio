@@ -1,3 +1,7 @@
+body {
+  font-family: VT323;
+}
+
 .enter-button.visible {
   display: none;
 }
@@ -21,7 +25,6 @@ header {
 }
 
 nav {
-  font-family:Rubik, sans-serif;
   padding: 20px;
   display: flex;
   gap: 3rem;
@@ -139,11 +142,20 @@ nav {
       transform: translateY(0);}
   }
 
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .photo {
     display:flex;
     height: auto;
-    width:20%;
-    margin: 100px 40%;
+    width:30%;
+    margin: 35px 35% ;
+  }
+
+  .about-text {
+    display:flex;
+    flex-wrap: wrap;
   }
 
   .button-portfolio {
