@@ -32,10 +32,6 @@ nav {
   align-items: center;
 }
 
-.links{
-  font-size: 20px;
-}
-
 .grid-container { 
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -144,9 +140,6 @@ nav {
   }
 
   .photo {
-    display:flex;
-    height: auto;
-    width:20%;
     margin: 100px 40%;
   }
 
@@ -163,10 +156,6 @@ nav {
   gap: 2rem;
 }
 
-.socials {
-  padding: 2rem;
-}
-
 @media screen and (max-width: 1050px) {
   .heading {
     font-size: 20px;
@@ -177,11 +166,6 @@ nav {
     nav {
     justify-items: center;
     gap: 1rem;
-    }
-
-    .links {
-      text-align: center;
-      font-size: 16px;
     }
 
     .programmer {
@@ -208,7 +192,7 @@ nav {
       padding: 0;
     }
    
-    .links {
+    .title{
       font-size: 14px;
     }
     
