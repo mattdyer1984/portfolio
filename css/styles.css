@@ -1,5 +1,5 @@
 body {
-  font-family: VT323;
+  font-family: VT323, sans-serif;
 }
 
 .enter-button.visible {
@@ -25,7 +25,6 @@ header {
 }
 
 nav {
-
   padding: 20px;
   display: flex;
   gap: 3rem;
@@ -171,7 +170,6 @@ nav {
   .heading {
     font-size: 20px;
   }
-  
   }
 
   @media screen and (max-width: 800px) {
@@ -179,6 +177,7 @@ nav {
     justify-items: center;
     gap: 1rem;
     }
+
     .links {
       text-align: center;
       font-size: 16px;
@@ -187,8 +186,8 @@ nav {
     .programmer {
       width: 130px;
       height: 130px;
-    
     }
+
     @keyframes cartoon {
       0%   {left:0px; top:0px;}
       25%  {left:0px; top:35%;}
@@ -202,28 +201,30 @@ nav {
     body {
       width: 100%;
     }
+   
     #heading {
       margin-top: 4px;
       padding: 0;
     }
+   
     .links {
       font-size: 14px;
     }
+    
     .photo {
     
       width:29%;
       margin: 40px 37.5%;
     }
-   .programmer {
+   
+    .programmer {
     display: none;
    }
+  
    #projects { 
-    
    display: flex;
    flex-direction: column;
    align-items: center;
    font-size: 12px;
-   
-    
   }
     }
