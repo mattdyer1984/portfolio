@@ -1,18 +1,18 @@
 {
   "projects": [
     {
-        "name": "BR Tuning and Diagnostics",
-        "img": "images/website.png",
-        "Field": "Automotive Tuning and Diagnosis of faults",
-        "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro velit doloribus, architecto necessitatibus illum quia consequatur delectus rerum sapiente ex eum. Blanditiis ab perferendis tempore corporis delectus nisi illum!",
+        "name": "Book Swap Project",
+        "img": "images/BookSwap.png",
+        "Field": "Book Swap Library Team Excercise",
+        "desc": " This Was a team exercise we did during the IO Academy Course, in a team of 4 we were tasked with creating a book swap website, where a user can take out a book, review a book and add new books.",
         "Links":"https://www.br-tuning.co.uk"
      
     },
     {
-      "name": "BR Tuning and Diagnostics",
-      "img": "images/website.png",
-      "Field": "Automotive Tuning and Diagnosis of faults",
-      "desc": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro velit doloribus, architecto necessitatibus illum quia consequatur delectus rerum sapiente ex eum. Blanditiis ab perferendis tempore corporis delectus nisi illum!",
+      "name": "Matt's Premier League Card Collecttion",
+      "img": "images/MattsEPLCollection.png",
+      "Field": "PHP/SQL Exercise",
+      "desc": " Using PHP and SQL we were tasked with creating a collection site, this project was about functionality not making it look great. The site needed to be able to add new items, remove items(soft delete only), filter items by one field, have a search bar and also be able to compare 2 items.",
       "Links":"https://www.br-tuning.co.uk"
    
     },

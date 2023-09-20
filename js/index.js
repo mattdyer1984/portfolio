@@ -7,7 +7,7 @@ document.querySelector('#enter').addEventListener('click', togglemain)
 
 clickCounter();
 
-function clickCounter() {
+ function clickCounter() {
     if(typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
         localStorage.clickcount = Number(localStorage.clickcount)+1;
