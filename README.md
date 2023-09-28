@@ -12,3 +12,7 @@ We suggest each project has an image, a title, a description, and a link to GitH
 Must be able to click on each portfolio project to display more information
 An example of the kind of thing to aim for: https://dev.io-academy.uk/resources/portfolio-example/
 
+The deployed finished article can be found here:
+
+https://2023-mattd.dev.io-academy.uk/portfolio/index.html
+
